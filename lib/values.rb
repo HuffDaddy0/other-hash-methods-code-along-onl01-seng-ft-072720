@@ -13,5 +13,6 @@ def get_the_values(groceries)
     section.map do | list|
     grocery.values
   end
+end
   #code your solution here!
 end
