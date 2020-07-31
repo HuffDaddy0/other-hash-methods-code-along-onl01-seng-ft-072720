@@ -10,7 +10,7 @@ require 'pry'
 
 def get_the_values(groceries)
   groceries.map do |section , grocery|
-    section.map do | list|
+    grocery.map do | list|
     grocery.values
   end
 end
