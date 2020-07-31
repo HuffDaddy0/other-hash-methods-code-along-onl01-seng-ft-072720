@@ -9,6 +9,8 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  groceries.values.join(" ")
+  groceries.map do |section , grocery|
+    section.values
+  end
   #code your solution here!
 end
