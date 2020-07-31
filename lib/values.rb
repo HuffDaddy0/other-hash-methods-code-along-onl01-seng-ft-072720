@@ -9,10 +9,6 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  groceries.map do |section , grocery|
-    grocery.map do | list|
-    grocery.values
-  end
-end
+  groceries.values.flatten
   #code your solution here!
 end
